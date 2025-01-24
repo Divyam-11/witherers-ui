@@ -1,0 +1,10 @@
+.home {
+    flex: 1;
+    padding: 20px;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #cccccc;
+}
