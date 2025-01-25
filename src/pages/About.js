@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css';
 
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div id="about" className={styles.about}>
             <h1>About Witherers</h1>
             <p>
                 Witherers is a group of friends who share a love for gaming, creativity, and good times. 

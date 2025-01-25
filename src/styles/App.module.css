@@ -1,9 +1,21 @@
+:root {
+    --navbar-bg: #1a1a1a; /* Dark gray */
+    --bg-color: #121212; /* Almost black */
+    --text-color: #ffffff; /* White */
+    --accent-color: #7CFC00; /* Grass green */
+}
+
 .app {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     text-align: center;
-    padding: 20px;
+    font-family: 'Minecraft', sans-serif; /* Use a Minecraft-like font */
+}
+
+.content {
+    flex: 1;
+    padding-top: 0; /* Remove top padding since Navbar is part of the flow */
 }

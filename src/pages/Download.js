@@ -3,7 +3,7 @@ import styles from '../styles/Download.module.css';
 
 const Download = () => {
     return (
-        <div className={styles.download}>
+        <div id="download" className={styles.download}>
             <h1>Download Minecraft Worlds</h1>
             <p className={styles.subtitle}>
                 Relive the adventures of the Witherers crew! Download the worlds we’ve played or hosted and explore them for yourself.
